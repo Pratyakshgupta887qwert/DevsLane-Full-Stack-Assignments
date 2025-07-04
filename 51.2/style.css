@@ -1,0 +1,48 @@
+.bg-green{
+  background-color:green;
+}
+.border-black{
+  border:4px solid black;
+}
+.border-dotted{
+  border:2px dotted black;
+}
+.text-bold{
+  font-weight:bold;
+}
+.text-center{
+  text-align:center;
+}
+.p-5{
+  padding:5px;
+}
+.p-10{
+  padding:10px;
+}
+.m-10{
+  margin:10px;
+}
+.mt-20{
+  margin-top:20px;
+}
+.h-400{
+  height:400px;
+}
+.inline-block{
+  display:inline-block;
+}
+.ptop{
+  padding:2px;
+}
+.pbottom{
+  padding:2px;
+}
+.pleft{
+  padding:4px;
+}
+.pright{
+  padding:4px;
+}
+.font-size{
+  font-size: xx-large;
+}
