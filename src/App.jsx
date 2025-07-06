@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import './App.css'
-import Footer from './components/Footer.jsx';
-import Items from './components/Items.jsx';
+import Footer from './components/Footer';
+import Items from './components/Items';
+import './App.css';
 function App() {
 
   return (
@@ -21,37 +21,37 @@ function App() {
         </div>
         <div className="bg-white m-12 mt-0 mb-0  p-4 flex flex-wrap justify-center gap-z">
           <Items
-            image="https://www.incrediblegifts.in/wp-content/uploads/2023/09/Untitled-3-4.jpg"
+            image="https://images.unsplash.com/photo-1570784332176-fdd73da66f03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3VwfGVufDB8fDB8fHww"
             name="Stylish Cups"
             category="Cups"
             price="79.99"
             />
           <Items
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrLv-evCSZONBP_NTbuSgua1FsqH-ITn6oYw&s"
+            image="https://images.unsplash.com/photo-1579446565308-427218a2c60e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vdHdlYXJ8ZW58MHx8MHx8fDA%3D"
             name="Stylish Sneakers"
             category="Footwear"
             price="109.99"
           />
           <Items
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0p6KqY5h5t4nUlSfBZfRG6H55zR6p2SuzBw&s"
+            image="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vdHdlYXJ8ZW58MHx8MHx8fDA%3D"
             name="Stylish Sneakers"
             category="Footwear"
             price="99.99"
           />
           <Items
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2_Cfuuxo-m07hn4Sd6q4TBuqkkTcy6ErsGQ&s"
+            image="https://images.unsplash.com/photo-1570784332176-fdd73da66f03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3VwfGVufDB8fDB8fHww"
             name="Stylish Cups"
             category="Cups"
             price="79.99"
           />
           <Items
-            image="https://www.incrediblegifts.in/wp-content/uploads/2023/09/Untitled-3-4.jpg"
+            image="https://images.unsplash.com/photo-1561909848-977d0617f275?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZvb3R3ZWFyfGVufDB8fDB8fHww"
             name="Stylish Sneakers"
             category="Footwear"
             price="59.99"
           />
           <Items
-            image="https://png.pngtree.com/png-vector/20201128/ourmid/pngtree-casual-shoes-png-image_2393725.jpg"
+            image="https://images.unsplash.com/photo-1543512214-318c7553f230?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW1hem9uJTIwJTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
             name="Amazon Product"
             category="Speaker"
             price="49.99"
@@ -69,25 +69,25 @@ function App() {
             price="99.99"
           />
           <Items
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2dLc13RfolSfS4BoPIU020tOeGWS1U2C-YQ&s"
+            image="https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNoaXJ0c3xlbnwwfHwwfHx8MA%3D%3D"
             name="Stylish Shirts"
             category="Shirt"
             price="59.99"
           />
           <Items
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrLv-evCSZONBP_NTbuSgua1FsqH-ITn6oYw&s"
+            image="https://images.unsplash.com/photo-1570784332176-fdd73da66f03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3VwfGVufDB8fDB8fHww"
             name="Stylish Cups"
             category="Cups"
             price="79.99"
           />
           <Items
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Bj9aFMRM8tXD7J-mCj24YT8tla5SdfYaqA&s"
+            image="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vdHdlYXJ8ZW58MHx8MHx8fDA%3D"
             name="Stylish Sneakers"
             category="Footwear"
             price="99.99"
           />
           <Items
-            image="https://levi.in/cdn/shop/files/download_a6c8bb95-c3df-4957-b9ed-188ed283af0d.jpg?v=1745159964"
+            image="https://images.unsplash.com/photo-1570784332176-fdd73da66f03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3VwfGVufDB8fDB8fHww"
             name="Stylish Cups"
             category="Cups"
             price="79.99"
@@ -102,7 +102,7 @@ function App() {
         </div>
         <Footer />
       </div>
-      
+
     </>
   )
 }
