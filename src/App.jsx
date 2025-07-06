@@ -21,26 +21,26 @@ function App() {
         </div>
         <div className="bg-white m-12 mt-0 mb-0  p-4 flex flex-wrap justify-center gap-z">
           <Items
-            image="https://images.unsplash.com/photo-1570784332176-fdd73da66f03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3VwfGVufDB8fDB8fHww"
-            name="Stylish Cups"
-            category="Cups"
+            image="https://th.bing.com/th/id/OIP.oxk-NL-1_JfJUXFenTSzVAHaHK?w=178&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3"
+            name="T shirt"
+            category="t shirt "
             price="79.99"
             />
           <Items
-            image="https://images.unsplash.com/photo-1579446565308-427218a2c60e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vdHdlYXJ8ZW58MHx8MHx8fDA%3D"
-            name="Stylish Sneakers"
-            category="Footwear"
+            image="https://th.bing.com/th/id/OIP.mrrbzhnwco-f6H5i8xOLaAHaJQ?w=155&h=193&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3"
+            name="T shirt"
+            category=" t shirt "
             price="109.99"
           />
           <Items
-            image="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vdHdlYXJ8ZW58MHx8MHx8fDA%3D"
-            name="Stylish Sneakers"
-            category="Footwear"
+            image="https://ts2.mm.bing.net/th?id=OIP.44DWH6pvnzVqiSLG6mP_uwHaHa&pid=15.1"
+            name="coffee mug"
+            category="mug "
             price="99.99"
           />
           <Items
             image="https://images.unsplash.com/photo-1570784332176-fdd73da66f03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3VwfGVufDB8fDB8fHww"
-            name="Stylish Cups"
+            name=" Cups"
             category="Cups"
             price="79.99"
           />
@@ -51,7 +51,7 @@ function App() {
             price="59.99"
           />
           <Items
-            image="https://images.unsplash.com/photo-1543512214-318c7553f230?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW1hem9uJTIwJTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
+            image="https://th.bing.com/th/id/OIP.H_NqElx0wouJFc56MSwtyAHaE8?w=300&h=200&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3"
             name="Amazon Product"
             category="Speaker"
             price="49.99"
@@ -63,9 +63,9 @@ function App() {
             price="49.99"
           />
           <Items
-            image="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2hpcnRzfGVufDB8fDB8fHww"
-            name="Stylish Shirts"
-            category="Shirt"
+            image="https://th.bing.com/th/id/OIP.zjFRWGN0vP3ISKbYw9qMJAHaHZ?w=174&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7"
+            name="Stylish Mug"
+            category="Mug"
             price="99.99"
           />
           <Items
