@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './App.css'
 import Header from './Header'
-import Items  from './items'
+import Items  from './Items'
 import Footer from './footer'
 import Details from './Details'
 import ItemsList from './ItemsList'
