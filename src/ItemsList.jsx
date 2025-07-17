@@ -1,5 +1,5 @@
 import React from 'react'
-import Items from './items'
+import Items from './Items'
 function ItemsList({items}){
     return(
         <>
