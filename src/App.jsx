@@ -1,34 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import { useEffect, useState } from 'react'
+import Header from './Header.jsx';
+import Refresh from './Refresh.jsx';
+import TodoList from './ToDoList.jsx';
+import { sampleTasks,sampleTasksDone } from './SampleData.js';
 function App() {
-  const [count, setCount] = useState(0)
+const savedTasks = JSON.parse(
+  localStorage.getItem("To-do") ||
+  JSON.stringify(sampleTasks)
+);
+
+const completedTasks = JSON.parse(
+  localStorage.getItem("completed") ||
+  JSON.stringify(sampleTasksDone)
+);
+
+
+
+
+  const [tasks,updateTasks]=useState(savedTasks);
+  const [completed,updateCompleted]=useState(completedTasks);
+  useEffect(()=>{
+    localStorage.setItem("To-do",JSON.stringify(tasks));
+  }
+  ,[tasks]);
+  useEffect(()=>{
+    localStorage.setItem("completed",JSON.stringify(completed));
+  }
+  ,[completed]);
+
+
+
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className='min-h-screen w-full flex flex-col items-center'>
+      <Header/>
+      <Refresh updateCompleted={updateCompleted} updateTasks={updateTasks}/>
+      <TodoList tasks={tasks} completed={completed} updateTasks={updateTasks} updateCompleted={updateCompleted}/>
+    </div>
   )
 }
 
