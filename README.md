@@ -21,7 +21,7 @@ DevsLane-Full-Stack-Assignments/
 │   │   ├── 53.3/
 │   │   └── README.md
 │
-│   ├── main/                         # Contains clean Vite + React setup
+│   ├── main/                         # Contains clean Vite + React + Tailwind setup
 │   │   ├── node_modules/
 │   │   ├── public/
 │   │   ├── src/
